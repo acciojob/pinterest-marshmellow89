@@ -4,9 +4,38 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+	.hero{
+	    display:flex;
+		justify-content:center;
+		align-items:space-around;
+		height:50vh;
+	}
+		img{
+			object-fit:cover;
+		}
+		button{
+			padding:1px;
+			background-color:red;
+			color:white;
+			border-radius:20px;
+			height:20px;
+			}
+		#bt{
+			text-align:center;
+		}
+		
+	</style>
 </head>
 
 <body>
+	<div class="hero">
+		<img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height=80% width="60%">
+		<div id="bt">
+			<h1>Welcome to my Pinterest clone</h1>
+			<p>Discover new inspiration and save your favorite ideas</p>
+			<button>Explore now</button></div>
+	</div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
